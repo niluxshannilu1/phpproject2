@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Login Form - Modal</title>
     <link rel="stylesheet" href="https://public.codepenassets.com/css/reset-2.0.min.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons'><link rel="stylesheet" href="./style.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons'><link rel="stylesheet" href="./style_login.css">
 
   </head>
     
