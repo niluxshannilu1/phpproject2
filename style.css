@@ -31,7 +31,8 @@ a:hover {
 
 .tab-group {
   list-style: none;
-  padding: 0;
+  align: center;
+  padding: 10;
   margin: 0 0 40px 0;
 }
 .tab-group:after {
@@ -55,10 +56,12 @@ a:hover {
 .tab-group li a:hover {
   background: #179b77;
   color: #ffffff;
+  align: center;
 }
 .tab-group .active a {
   background: #1ab188;
   color: #ffffff;
+  align: center;
 }
 
 .tab-content > div:last-child {

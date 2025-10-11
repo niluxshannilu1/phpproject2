@@ -13,7 +13,7 @@
   <div class="form">
       
       <ul class="tab-group">
-        <li class="tab active"><a href="#signup"><h2><cender>Sign Up</cender></h2></a></li>
+        <li class="tab active"><a href="#signup">Sign Up</a></li>
       </ul>
       
       <div class="tab-content">
