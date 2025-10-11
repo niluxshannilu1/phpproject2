@@ -3,72 +3,55 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Sign-Up</title>
-    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
-<link rel="stylesheet" href="./style.css">
+    <title>creative signup page </title>
+    <link rel="stylesheet" href="./style_signup.css">
 
   </head>
     
   <body>
-  <div class="form">
-      
-      <ul class="tab-group">
-        <li class="tab active"><a href="#signup">Sign Up</a></li>
-      </ul>
-      
-      <div class="tab-content">
-        <div id="signup">   
-          <h1>Sign Up for Free</h1>
-          
-          <form action="/" method="post">
-          
-          <div class="top-row">
-            <div class="field-wrap">
-              <label>
-                First Name<span class="req">*</span>
-              </label>
-              <input type="text" required autocomplete="off" />
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Signup Form</title>
+    <link rel="stylesheet" href="signup-style.css">
+</head>
+<body>
+    <div class="signup-container">
+        <form class="signup-form">
+            <h2>Sign Up</h2>
+
+            <div class="input-group">
+                <input type="text" required>
+                <label for="">Full Name</label>
             </div>
-        
-            <div class="field-wrap">
-              <label>
-                Last Name<span class="req">*</span>
-              </label>
-              <input type="text"required autocomplete="off"/>
+
+            <div class="input-group">
+                <input type="email" required>
+                <label for="">Email</label>
             </div>
-          </div>
 
-          <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
-          </div>
-          
-          <div class="field-wrap">
-            <label>
-              Set A Password<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
-          
-          <button type="submit" class="button button-block"/>Get Started</button>
-          
-          </form>
+            <div class="input-group">
+                <input type="text" required>
+                <label for="">Username</label>
+            </div>
 
-        </div>
-          
-          <p class="forgot"><a href="#">Forgot Password?</a></p>
-          
-          </form>
+            <div class="input-group">
+                <input type="password" required>
+                <label for="">Password</label>
+            </div>
 
-        </div>
-        
-      </div><!-- tab-content -->
-      
-</div> <!-- /form -->
-    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+            <button type="submit">Create Account</button>
 
+            <div class="login-link">
+                Already have an account? <a href="login.html">Login</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+    
   </body>
   
 </html>
