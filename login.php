@@ -67,10 +67,12 @@
     </div>
   </div>
 </div>
-<div class="pen-footer"><a href="https://www.behance.net/gallery/30478397/Login-Form-UI-Library" target="_blank"><i class="material-icons">arrow_backward</i>View on Behance</a><a href="https://github.com/andyhqtran/UI-Library/tree/master/Login%20Form" target="_blank">View on Github<i class="material-icons">arrow_forward</i></a></div>
-    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://codepen.io/andytran/pen/vLmRVp.js'></script><script  src="./script.js"></script>
-
+<div>
+  <a class = "signup" >
+    <a href="signup.php">
+      <center><h1><b>signup</b></h1></center> </a>
+</div>
+</div>
   </body>
   
 </html>
