@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="signup-style.css">
 </head>
 <body>
+    <?php
+
+    include("registration.php");
+    ?>
      
     <div class="signup-container">
         <form class="signup-form">
