@@ -69,7 +69,7 @@
 </div>
 <div>
   <a class = "signup" >
-    <a href="signup.php">
+    <a href="#">
       <center><h1><b>signup</b></h1></center> </a>
 </div>
 </div>

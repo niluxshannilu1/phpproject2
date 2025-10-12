@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>creative signup page </title>
+    <title>signup page </title>
     <link rel="stylesheet" href="./style_signup.css">
 
   </head>
@@ -18,9 +18,10 @@
     <link rel="stylesheet" href="signup-style.css">
 </head>
 <body>
+     
     <div class="signup-container">
         <form class="signup-form">
-            <h2>Sign Up</h2>
+            <h2>M Tec Sign Up</h2>
 
             <div class="input-group">
                 <input type="text" required>
@@ -41,11 +42,21 @@
                 <input type="password" required>
                 <label for="">Password</label>
             </div>
+            
+            <div class="input-group">
+                <input type="text" required>
+                <label for="">Nic Number</label>
+            </div>
+            <div class="input-group">
+                <input type="text" required>
+                <label for="">Mobile Number</label>
+            </div>
+            
 
             <button type="submit">Create Account</button>
 
             <div class="login-link">
-                Already have an account? <a href="login.html">Login</a>
+                Already have an account? <a href="login.php">Login</a>
             </div>
         </form>
     </div>
