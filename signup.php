@@ -16,12 +16,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Signup Form</title>
     <link rel="stylesheet" href="signup-style.css">
+ 
 </head>
+
 <body>
     <?php
 
     include("registration.php");
     ?>
+    
      
     <div class="signup-container">
         <form class="signup-form">
@@ -29,31 +32,31 @@
 
             <div class="input-group">
                 <input type="text" required>
-                <label for="">Full Name</label>
+                <label for="text">Full Name</label>
             </div>
 
             <div class="input-group">
                 <input type="email" required>
-                <label for="">Email</label>
+                <label for="email">Email</label>
             </div>
 
             <div class="input-group">
                 <input type="text" required>
-                <label for="">Username</label>
+                <label for="text">Username</label>
             </div>
 
             <div class="input-group">
                 <input type="password" required>
-                <label for="">Password</label>
+                <label for="password">Password</label>
             </div>
             
             <div class="input-group">
                 <input type="text" required>
-                <label for="">Nic Number</label>
+                <label for="text">Nic Number</label>
             </div>
             <div class="input-group">
                 <input type="text" required>
-                <label for="">Mobile Number</label>
+                <label for="text">Mobile Number</label>
             </div>
             
 
